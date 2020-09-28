@@ -3,15 +3,18 @@
   <head>
     <meta charset="UTF-8">
     <title>Hello World!</title>
-    <link rel="stylesheet" href="index.css">
+    
     <script defer src="render.js"></script>
-    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
   </head>
   <body>
     <h1>Screen Recorder</h1>
-    <video></video>
-    <button id="startBtn">Start</button>
-    <button id="stopBtn">Stop</button>
-    <button id="videoSelectionBtn" class="btn">Choose a source</button>
+    <video height=400px width=400px></video>
+    <div class="btn-wrapper">
+    <button class="btn btn-primary" id="startBtn">Start</button>
+    <button class="btn btn-danger" id="stopBtn">Stop</button>
+    <button class="btn btn-primary" id="videoSelectionBtn">Choose a source</button>
+  </div>
   </body>
 </html>

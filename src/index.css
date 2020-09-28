@@ -4,3 +4,17 @@ body {
   max-width: 38rem;
   padding: 2rem;
 }
+
+h1 {
+	text-align: center;
+	border-bottom: 2px dotted black;
+}
+.btn-wrapper{
+	display: flex;
+	justify-content: flex-end;
+	flex-flow: row wrap;
+}
+button {
+	margin: 0 auto;
+
+}
